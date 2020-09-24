@@ -16,5 +16,36 @@
             [re-view.core :include-macros true]
             #_[thi.ng.geom.svg.core :as svg]
 
-            [cljs.js])
-  (:require-macros [cells.cell :refer [defcell cell]]))
+            [cljs.js]
+            [com.rpl.specter :as sp :include-macros true :refer-macros [select]])
+  (:require-macros [cells.cell :refer [defcell cell]]
+                   ;[com.rpl.specter :refer [collected?
+                   ;                         multi-transform
+                   ;                         replace-in
+                   ;                         select
+                   ;                         select-any
+                   ;                         selected-any?
+                   ;                         select-first
+                   ;                         select-one
+                   ;                         select-one!
+                   ;                         setval
+                   ;                         transform
+                   ;                         traverse
+                   ;                         traverse-all
+                   ;                         declarepath
+                   ;                         defprotocolpath
+                   ;                         extend-protocolpath
+                   ;                         path
+                   ;                         providepath
+                   ;                         recursive-path
+                   ;                         defcollector
+                   ;                         ]]
+                   ;[com.rpl.specter.macros :refer [richnav
+                   ;                                nav
+                   ;                                defnav
+                   ;                         defrichnav]]
+                   ;[com.rpl.specter.util-macros :refer [doseqres
+                   ;                                     mk-comp-navs
+                   ;                                     mk-late-fn-records
+                   ;                                     mk-late-fn]]
+                   ))

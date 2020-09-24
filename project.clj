@@ -4,5 +4,6 @@
                  [lark/cells "0.1.5"]
                  [lark/tools "0.1.19"]
                  [maria/shapes "0.1.0"]
-                 [thi.ng/geom "0.0.908"]]
+                 [thi.ng/geom "0.0.908"]
+                 [com.rpl/specter "1.1.3"]]
   :source-paths ["src"])
